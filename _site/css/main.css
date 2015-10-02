@@ -1,0 +1,126 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: white;
+  color: #333;
+  font-family: 'Whitney SSm A', 'Whitney SSm B'; 
+  font-size: 0.875em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Chronicle SSm A', 'Chronicle SSm B'; 
+  font-style: normal;
+  font-weight: 400; 
+  line-height: 1.2;
+  margin: 1.414em 0 0.5em;
+}
+
+h1 {
+  font-size: 3.157em;
+}
+
+h2 {font-size: 2.369em;}
+
+h3 {font-size: 1.777em;}
+
+h4 {font-size: 1.333em;}
+
+.font_small {font-size: 0.75em;}
+
+p { margin: 1em 0; }
+
+a         { color: #08c; text-decoration: none;}
+a:hover   { color: #005580; text-decoration: underline;}
+a:visited { color: #a0a; }
+
+.sc {
+  font-family: 'Whitney SSm Small Caps A', 'Whitney SSm Small Caps B'; 
+  font-style: normal;
+}
+
+.site {
+  margin: 0 auto;
+  max-width: 34em;
+  min-width: 20em;
+  padding: 45px 100px;
+}
+.site img {
+  max-width: 100%;
+}
+h1.site-title {
+  font-size: 1.777em;
+  margin: 0;
+}
+.site-title a {
+  color: #333;
+}
+.welcome {
+  color: #bbb;
+}
+.footer {
+  border-top: 1px solid #eee;
+  padding-bottom: 40px;
+  margin-top: 80px;
+}
+.post-list {
+  list-style-type: none;
+}
+.post-list li {
+  color: #bbb;
+  position: relative;
+}
+.post-list li .exdent {
+  left: -100px;
+  position: absolute;
+  text-align: right;
+  top: 0;
+  width: 90px;
+}
+
+
+.post-title {
+  margin-bottom: 0;
+}
+.meta {
+  color: #bbb;
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+.post p:first-child:first-line {
+  font-family: 'Whitney SSm Small Caps A', 'Whitney SSm Small Caps B';
+}
+
+code {
+  background: #f7f7f7;
+  color: #d00;
+  font-size: 1rem;
+  padding: 0 3px;
+}
+
+@media (max-width: 500px) { 
+  .site {
+    padding: 45px 25px;
+  }
+  .post-list li .exdent {
+    display: block;
+    margin: 10px 0 -5px;
+    position: static;
+    text-align: left;
+  }
+}
