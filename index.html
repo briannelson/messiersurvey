@@ -3,25 +3,8 @@ layout: default
 title: Home
 ---
 
-<div class="welcome sc">
-  Graphic Designer, Father, Occasional Woodworker
+<div class="masthead">
+  <img src="/assets/masthead.jpg" alt="" />
 </div>
 
-<div class="blog">
-  <h2>Blog</h2>
-  <ul class="post-list">
-    {% for post in site.categories.blog %}
-      <li><span class="exdent">{{ post.date | date: "%-d <em class='sc'>%b</em> %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
-
-<div class="work">
-  <h2>Design</h2>
-  <ul class="post-list">
-    {% for post in site.categories.work %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-
-</div>
+<p class="lead"><strong class="text-uppercase">{{ site.name }}</strong> is a full service professional Land Surveying and Civil Engineering firm providing personalized “hands-on” professional services to private and public clients in the residential, commercial, industrial, institutional and municipal sectors from its office headquarters in Manchester, Connecticut.</p>
