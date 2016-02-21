@@ -1,5 +1,5 @@
 name: Messier Survey, LLC
 description: Land surveyors in Manchester, CT.
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 permalink: pretty
